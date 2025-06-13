@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useMemo } from "react";
 import { Editor, EditorState, RichUtils } from "draft-js";
 import "draft-js/dist/Draft.css";
-import { Toolbar } from "./Toolbar";
+import { Toolbar } from "./toolbar";
 
 // The main WYSIWYG editor component
 const WysiwygEditor: React.FC<WysiwygEditorProps> = ({
