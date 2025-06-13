@@ -20,7 +20,7 @@ const DemoPage: React.FC = () => {
 
         {/* Usage Instructions */}
         <UsageInstructions />
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
           {/* Controlled Mode */}
           <ControlledWysiwyg />
 

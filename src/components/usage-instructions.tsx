@@ -21,7 +21,6 @@ const UsageInstructions = () => {
           <li>Custom toolbar rendering</li>
           <li>Read-only mode</li>
           <li>Async content loading and saving</li>
-          <li>Error handling and loading states</li>
         </ul>
       </div>
     </div>
