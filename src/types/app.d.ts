@@ -6,19 +6,6 @@ declare type ToolbarProps = {
   className?: string;
 };
 
-declare type ApiResponse<T> = {
-  success: boolean;
-  data?: T;
-  error?: string;
-};
-
-declare type ContentData = {
-  id: string;
-  title: string;
-  content: string;
-  lastModified: Date;
-};
-
 declare type WysiwygEditorProps = {
   // Controlled mode props
   value?: EditorState;
