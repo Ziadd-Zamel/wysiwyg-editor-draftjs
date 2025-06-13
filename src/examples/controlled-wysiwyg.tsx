@@ -8,7 +8,7 @@ import WysiwygEditor from "../components/wysiwyg-editor";
 
 const ControlledWysiwyg = () => {
   const [controlledState, setControlledState] = useState(() =>
-    createEditorStateFromText("This is a controlled editor. Try typing here!")
+    createEditorStateFromText("")
   );
 
   return (
@@ -27,13 +27,10 @@ const ControlledWysiwyg = () => {
           value={controlledState}
           onChange={setControlledState}
           placeholder="Type in controlled mode..."
-          className="mb-4"
         />
-
-        <div className="bg-gray-50 p-3 rounded text-sm">
-          <strong>Character count:</strong>{" "}
-          {getPlainText(controlledState).length}
-        </div>
+      </div>
+      <div className="bg-white p-3 border-gray-200 rounded text-sm">
+        <strong>Character count:</strong> {getPlainText(controlledState).length}
       </div>
     </div>
   );

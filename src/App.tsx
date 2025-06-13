@@ -1,9 +1,7 @@
+import DemoPage from "./components/demo-page";
+
 function App() {
-  return (
-    <div>
-      <p>sdasdas</p>
-    </div>
-  );
+  return <DemoPage />;
 }
 
 export default App;
